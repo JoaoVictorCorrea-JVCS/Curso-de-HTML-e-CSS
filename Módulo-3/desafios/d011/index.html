@@ -8,32 +8,26 @@
     <style>
         * {
             margin: 0px;
-            padding: 0px;
-        }
-        
-        .img1 {
-            width: 100%;
-            height: 100%;
         }
 
-        .div1 {
-            position: relative;
+        body {
+            background-image: url(Imagens/espaco.jpg);           background-size: 100%;
+            height: 100vh;
+
         }
 
-        .div2 {
-            position: absolute;
-            top: auto;
-            vertical-align: middle;
-            display: table;
+        #astronauta {
+            background-image: url(Imagens/astronauta.png);
+            background-size: 26%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100vh;
+            
         }
     </style>
 </head>
 <body>
-    <div class="div1">
-        <img src="Imagens/espaco.jpg" alt="Espaço" class="img1">
-    </div>
-    <div class="div2">
-            <img src="Imagens/astronauta.png" alt="Astronauta" class="img2">
-    </div>
+    <div id="astronauta"></div>
 </body>
 </html>
